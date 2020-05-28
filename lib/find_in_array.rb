@@ -24,4 +24,4 @@ def find_element_index(array, value_to_find)
   puts number
 end  
 
-find_element_index(a, 5)
+find_element_index(a, 8)
