@@ -1,4 +1,4 @@
-a=[1,2,3,4,5,6,7,8,9]
+#a=[1,2,3,4,5,6,7,8,9]
 
 #def find_element_index(array, value_to_find)
  #bul = array.include?(value_to_find)
@@ -21,7 +21,5 @@ def find_element_index(array, value_to_find)
       i+=1 
     end
   end
-  puts number
+  return number
 end  
-
-find_element_index(a, 8)
