@@ -15,11 +15,13 @@ def find_element_index(array, value_to_find)
   k = value_to_find
   while i<array.length do
     if array[i]==k
-      puts i 
+      number=i 
+      i+=1 
     else 
       i+=1 
     end
   end
+  puts number
 end  
 
 find_element_index(a, 5)
